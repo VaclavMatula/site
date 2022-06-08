@@ -6,9 +6,9 @@ body {
     background-color: rgb(185, 136, 29);
     border-style: solid;
     border-color: rgb(197, 73, 24);
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -22,7 +22,7 @@ body {
 .Orbita1{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -37,7 +37,7 @@ body {
 .Orbita2{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -52,7 +52,7 @@ body {
 .Orbita3{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -67,7 +67,7 @@ body {
 .Orbita4{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 600px;
     height: 600px;
     border-radius: 50%;
@@ -82,7 +82,7 @@ body {
 .Orbita5{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 700px;
     height: 700px;
     border-radius: 50%;
@@ -97,7 +97,7 @@ body {
 .Orbita6{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 800px;
     height: 800px;
     border-radius: 50%;
@@ -112,7 +112,7 @@ body {
 .Orbita7{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 900px;
     height: 900px;
     border-radius: 50%;
@@ -127,7 +127,7 @@ body {
 .Orbita8{
     border-style: solid;
     border-color: azure;
-    border-width: 5px;
+    border-width: 1px;
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
@@ -174,11 +174,24 @@ body {
     100%{transform: rotate(360deg) translate(500px);}
 }
 
+@keyframes rotate9 {
+    0%{transform: rotate(360deg) translate(0px);}
+    100%{transform: rotate(0deg) translate(0px);}
+}
+
+@keyframes rotate9 {
+    0%{transform: rotate(360deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.p{
+    animation: rotate9 8.8s linear infinite;
+}
 
 .Planeta1{
     background-color: rgb(24, 180, 24);
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -187,7 +200,7 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate1 2s infinite linear;
+    animation: rotate1 8.8s infinite linear;
 }
 
 .Planeta2{
@@ -202,13 +215,13 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate2 4s infinite linear;
+    animation: rotate2 2.55s infinite linear;
 }
 
 .Planeta3{
     background-color: rgb(40, 145, 194);
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -217,13 +230,13 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate3 8s infinite linear;
+    animation: rotate3 3.56s infinite linear;
 }
 
 .Planeta4{
     background-color: rgb(170, 180, 24);
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -232,12 +245,12 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate4 16s infinite linear;
+    animation: rotate4 6.87s infinite linear;
 }
 .Planeta5{
     background-color: rgb(226, 24, 24);
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -246,7 +259,7 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate5 32s infinite linear;
+    animation: rotate5 43.33s infinite linear;
 }
 .Planeta6{
     background-color: rgb(226, 0, 188);
@@ -260,12 +273,12 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate6 64s infinite linear;
+    animation: rotate6 107.59s infinite linear;
 }
 .Planeta7{
     background-color: rgb(119, 71, 0);
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -274,12 +287,12 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate7 128s infinite linear;
+    animation: rotate7 306.87s infinite linear;
 }
 .Planeta8{
     background-color: rgb(0, 63, 0);
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin: auto;
     padding: 0;
@@ -288,5 +301,42 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate8 256s infinite linear;
+    animation: rotate8 601.90s infinite linear;
+}
+
+.name{
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.name:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Mercury:hover ~ .Orbita1{
+    border-width: 2px;
+}
+.Venus:hover ~ .Orbita2{
+    border-width: 2px;
+}
+.Earth:hover ~ .Orbita3{
+    border-width: 2px;
+}
+.Mars:hover ~ .Orbita4{
+    border-width: 2px;
+}
+.Jupiter:hover ~ .Orbita5{
+    border-width: 2px;
+}
+.Saturn:hover ~ .Orbita6{
+    border-width: 2px;
+}
+.Uranus:hover ~ .Orbita7{
+    border-width: 2px;
+}
+.Neptune:hover ~ .Orbita8{
+    border-width: 2px;
 }
