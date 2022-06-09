@@ -179,13 +179,30 @@ body {
     100%{transform: rotate(0deg) translate(0px);}
 }
 
-@keyframes rotate9 {
-    0%{transform: rotate(360deg);}
-    100%{transform: rotate(0deg);}
-}
 
-.p{
-    animation: rotate9 8.8s linear infinite;
+.Pl1{
+    animation: rotate9 0.88s infinite linear;
+}
+.Pl2{
+    animation: rotate9 2.55s infinite linear;
+}
+.Pl3{
+    animation: rotate9 3.56s infinite linear;
+}
+.Pl4{
+    animation: rotate9 6.87s infinite linear;
+}
+.Pl5{
+    animation: rotate9 43.33s infinite linear;
+}
+.Pl6{
+    animation: rotate9 107.59s infinite linear;
+}
+.Pl7{
+    animation: rotate9 306.87s infinite linear;
+}
+.Pl8{
+    animation: rotate9 601.90s infinite linear;
 }
 
 .Planeta1{
@@ -200,7 +217,7 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate1 8.8s infinite linear;
+    animation: rotate1 0.88s infinite linear;
 }
 
 .Planeta2{
@@ -339,4 +356,45 @@ body {
 }
 .Neptune:hover ~ .Orbita8{
     border-width: 2px;
+}
+
+.Mercury:hover ~ .Pl1{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Venus:hover ~ .Pl2{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Earth:hover ~ .Pl3{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Mars:hover ~ .Pl4{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Jupiter:hover ~ .Pl5{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Saturn:hover ~ .Pl6{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Uranus:hover ~ .Pl7{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+.Neptune:hover ~ .Pl8{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
 }
