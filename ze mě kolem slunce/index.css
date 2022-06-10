@@ -181,62 +181,32 @@ body {
 
 
 .Pl1{
-    animation: rotate9 0.88s infinite linear;
+    animation: rotate9 1.6s infinite linear;
 }
 .Pl2{
-    animation: rotate9 2.55s infinite linear;
+    animation: rotate9 4.5s infinite linear;
 }
 .Pl3{
-    animation: rotate9 3.56s infinite linear;
+    animation: rotate9 7.3s infinite linear;
 }
 .Pl4{
-    animation: rotate9 6.87s infinite linear;
+    animation: rotate9 13.74s infinite linear;
 }
 .Pl5{
-    animation: rotate9 43.33s infinite linear;
+    animation: rotate9 86.66s infinite linear;
 }
 .Pl6{
-    animation: rotate9 107.59s infinite linear;
+    animation: rotate9 215.8s infinite linear;
 }
 .Pl7{
-    animation: rotate9 306.87s infinite linear;
+    animation: rotate9 613s infinite linear;
 }
 .Pl8{
-    animation: rotate9 601.90s infinite linear;
+    animation: rotate9 1200s infinite linear;
 }
 
 .Planeta1{
     background-color: rgb(24, 180, 24);
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate1 0.88s infinite linear;
-}
-
-.Planeta2{
-    background-color: rgb(179, 50, 78);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate2 2.55s infinite linear;
-}
-
-.Planeta3{
-    background-color: rgb(40, 145, 194);
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -247,67 +217,11 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate3 3.56s infinite linear;
+    animation: rotate1 1.6s infinite linear;
 }
 
-.Planeta4{
-    background-color: rgb(170, 180, 24);
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate4 6.87s infinite linear;
-}
-.Planeta5{
-    background-color: rgb(226, 24, 24);
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate5 43.33s infinite linear;
-}
-.Planeta6{
-    background-color: rgb(226, 0, 188);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate6 107.59s infinite linear;
-}
-.Planeta7{
-    background-color: rgb(119, 71, 0);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 0;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0;
-    bottom:0;
-    animation: rotate7 306.87s infinite linear;
-}
-.Planeta8{
-    background-color: rgb(0, 63, 0);
+.Planeta2{
+    background-color: rgb(179, 50, 78);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -318,7 +232,97 @@ body {
     top: 0px;
     right: 0;
     bottom:0;
-    animation: rotate8 601.90s infinite linear;
+    animation: rotate2 4.5s infinite linear;
+}
+
+.Planeta3{
+    background-color: rgb(40, 145, 194);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate3 7.3s infinite linear;
+}
+
+.Planeta4{
+    background-color: rgb(170, 180, 24);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate4 13.74s infinite linear;
+}
+.Planeta5{
+    background-color: rgb(226, 24, 24);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate5 86.66s infinite linear;
+}
+.Planeta6{
+    background-color: rgb(226, 0, 188);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate6 215.8s infinite linear;
+}
+.Planeta7{
+    background-color: rgb(119, 71, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate7 613s infinite linear;
+}
+.Planeta8{
+    background-color: rgb(0, 63, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    animation: rotate8 1200s infinite linear;
+}
+
+.attention{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .name{
@@ -334,67 +338,86 @@ body {
 }
 
 .Mercury:hover ~ .Orbita1{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Venus:hover ~ .Orbita2{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Earth:hover ~ .Orbita3{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Mars:hover ~ .Orbita4{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Jupiter:hover ~ .Orbita5{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Saturn:hover ~ .Orbita6{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Uranus:hover ~ .Orbita7{
-    border-width: 2px;
+    border-width: 5px;
 }
 .Neptune:hover ~ .Orbita8{
-    border-width: 2px;
+    border-width: 5px;
 }
 
-.Mercury:hover ~ .Pl1{
+.Mercury:hover ~ .Planeta1 .Pl1{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Venus:hover ~ .Pl2{
+.Venus:hover ~ .Planeta2 .Pl2{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.Earth:hover ~ .Planeta3 .Pl3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Earth:hover ~ .Pl3{
+.Mars:hover ~ .Planeta4 .Pl4{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Mars:hover ~ .Pl4{
+.Jupiter:hover ~ .Planeta5 .Pl5{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Jupiter:hover ~ .Pl5{
+.Saturn:hover ~ .Planeta6 .Pl6{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Saturn:hover ~ .Pl6{
+.Uranus:hover ~ .Planeta7 .Pl7{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Uranus:hover ~ .Pl7{
+.Neptune:hover ~ .Planeta8 .Pl8{
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
 }
-.Neptune:hover ~ .Pl8{
-    font-size: 30px;
-    color: white;
-    font-weight: normal;
-}
+
+/* 
+
+Mercury: 88 days
+
+Venus: 225 days
+
+Earth: 365 days
+
+Mars: 687 days
+
+Jupiter: 4,333 days
+
+Saturn: 10,759 days
+
+Uranus: 30,687 days
+
+Neptune: 60,190 days
+
+*/
